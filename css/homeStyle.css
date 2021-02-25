@@ -2,7 +2,7 @@
   margin: 0;
   padding:0;
   text-decoration: none;
-  font-family: "Lora", serif;
+  font-family: 'Lora', serif;
   box-sizing: border-box;
 }
 
@@ -58,7 +58,7 @@
 }
 
 .inner-width {
-  max-width: 1600px;
+  max-width: 1200px;
   margin: auto;
   padding: 0 40px;
 }
@@ -346,9 +346,10 @@ section.dark .section-title::after {
 footer {
   background-image: url(../img/footer.jpg) ;
   color: white;
-  padding: 80px 0;
+  margin-top: 600px;
+  padding: 20px 0;
   text-align: center;
-  border: 1px solid green;
+  
 }
 
 .sm a {
@@ -434,7 +435,7 @@ footer {
 }
 
 .work{
-  width: calc(33% - 10px);
+  width: calc(33% - 50px);
   overflow: hidden;
   border-radius: 6px;
   margin: 10px 5px;
@@ -471,7 +472,7 @@ footer {
 }
 
 .work:hover img{
-  transform: scale(1.6) rotate(25deg);
+  transform: scale(1.6) rotate(15deg);
 }
 
 
